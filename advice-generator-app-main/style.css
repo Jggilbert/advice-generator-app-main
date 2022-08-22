@@ -1,0 +1,28 @@
+@media screen and (min-width:1440px){
+    
+}
+
+.height {
+    height: 100vh;
+    margin: 0;
+    background-color: hsl(218, 23%, 16%);
+    }
+    
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(225, 220, 220, 0.2);
+    background-color: hsl (217, 19%, 24%);
+    /* border-radius: 50%; */
+}
+
+#results {
+    font-weight: 800;
+    font-size: 28px;
+}
+
+
+/* Phone Styles */
+
+@media screen and (min-width:375px){
+    
+}
