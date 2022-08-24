@@ -1,28 +1,93 @@
-@media screen and (min-width:1440px){
-    
-}
-
 .height {
+    display: flex;
     height: 100vh;
-    margin: 0;
+    padding-top: 4em;
+    padding-right: 4em;
+    padding-left: 4em;
+    margin: 3em, 3em, 3em, 3em;
     background-color: hsl(218, 23%, 16%);
     }
     
 
 .card {
-    box-shadow: 0 4px 8px 0 rgba(225, 220, 220, 0.2);
-    background-color: hsl (217, 19%, 24%);
-    /* border-radius: 50%; */
+    display: grid;
+    padding-top: 3em;
+    padding-bottom: 3em;
+    width: 60%;
+    height: 50%;
+    margin: 5em;
+    background-color:hsl(217, 19%, 38%);
+    border-radius: 3%;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+    width: 50%;
+    height: 100%;
+    margin: 4em;
+    justify-content: center;    
 }
 
 #results {
     font-weight: 800;
     font-size: 28px;
+    justify-content: center;
 }
+
+.btn{
+    top:calc(50% - 10px);
+    left:calc(50% - 10px);
+    width: 6em;
+    height: 5em;
+    border-radius: 50%;
+    align-content: center;
+    background-color: hsl(150, 100%, 66%);
+}
+.active, .btn:hover {
+    top:calc(55% - 25px);
+    left:calc(55% - 25px);
+    width: 6em;
+    height: 5em;
+    border-radius: 50%;
+    background-color: hsl(150, 100%, 66%);
+    box-shadow: 0 4px 8px 0 hsl(150, 100%, 66%);
+    }
 
 
 /* Phone Styles */
 
 @media screen and (min-width:375px){
+ 
+    /* .height {
+        height: 100vh;
+        padding-top: 4em;
+        padding-right: 4em;
+        padding-left: 4em;
+        margin: 3em, 3em, 3em, 3em;
+        background-color: hsl(218, 23%, 16%);
+        }
+        
     
+    .card {
+        display: flex;
+        padding-top: 3em;
+        padding-bottom: 3em;
+        width: 75%;
+        height: 50%;
+        margin: 5em;
+        background-color:hsl(217, 19%, 38%);
+        border-radius: 3%;
+    }
+    
+    .container {
+        padding-top: 1.2em;
+        padding-bottom: 1.2em;
+        width: 50%;
+        height: 100%;
+        margin: 4em;
+        justify-content: center;    
+    } */
 }
