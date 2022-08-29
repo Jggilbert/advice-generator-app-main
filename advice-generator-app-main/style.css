@@ -1,39 +1,29 @@
 .height {
-    display: flex;
-    height: 100vh;
-    padding-top: 4em;
-    padding-right: 4em;
-    padding-left: 4em;
-    margin: 3em, 3em, 3em, 3em;
     background-color: hsl(218, 23%, 16%);
     }
     
-
 .card {
-    display: grid;
-    padding-top: 3em;
-    padding-bottom: 3em;
-    width: 60%;
-    height: 50%;
-    margin: 5em;
-    background-color:hsl(217, 19%, 38%);
-    border-radius: 3%;
+    border-radius: 1em;
+    padding: 3em;
     justify-content: center;
-    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(217, 19%, 38%);
 }
 
-.container {
-    padding-top: 1.2em;
-    padding-bottom: 1.2em;
-    width: 50%;
-    height: 100%;
-    margin: 4em;
-    justify-content: center;    
+.card-title {
+    color:hsl(150, 100%, 66%);
 }
+
 
 #results {
+    display: block;
+    color: #fff;
     font-weight: 800;
     font-size: 28px;
+    position: relative;
     justify-content: center;
 }
 
@@ -43,7 +33,9 @@
     width: 6em;
     height: 5em;
     border-radius: 50%;
-    align-content: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     background-color: hsl(150, 100%, 66%);
 }
 .active, .btn:hover {

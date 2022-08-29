@@ -1,3 +1,5 @@
+// counter needed to be added to card title still
+
 const resDiv = document.querySelector('#results');
 const resBtn = document.querySelector('#dice');
 
@@ -19,6 +21,8 @@ function getAdvice(){
         console.log(error);
      });
 }
+
+
 
 
 
